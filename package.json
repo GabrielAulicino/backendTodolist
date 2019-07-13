@@ -1,0 +1,26 @@
+{
+  "author": "Glaucia Lemos",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Tutorial - Desenvolvendo uma Aplicação RESTful API - Node.Js &amp;amp;amp;amp;amp; Express com MongoDb",
+  "name": "node-api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon sever.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "*",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "request": "^2.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/tutorial-crud-node-express-mongodb"
+  }
+}
